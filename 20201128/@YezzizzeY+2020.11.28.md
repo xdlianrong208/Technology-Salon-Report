@@ -14,7 +14,7 @@
 
  Client可以访问Deamon的API，那么用户也可以直接访问Deamon的API，而且为了方便二次开发，Docker同时提供了很多语言的SDK供开发者选择，例如Docker Client for python。 
 
-![](./img/cli.png)
+![](/img/cli.png)
 
 ### client的入口
 
@@ -88,7 +88,7 @@ func AddCommands(cmd *cobra.Command, dockerCli command.Cli) {
 
 docker pull命令的作用为：从Docker Registry中下载指定的容器镜像，并存储在本地的Graph中，以备后续创建Docker容器时的使用。
 
-![](./img/pull.jpg)
+![](/img/pull.jpg)
 
 
 
